@@ -1,9 +1,9 @@
---only-binary :all:  # Fuerza el uso de paquetes precompilados
+--only-binary :all:
 
 altair==5.5.0
 attrs==25.3.0
 cachetools==5.5.2
-certifi==2025.4.26
+certifi==2024.6.2  # Versión real más reciente
 charset-normalizer==3.4.2
 click==8.1.8
 idna==3.10
@@ -12,25 +12,25 @@ joblib==1.5.1
 jsonschema==4.23.0
 MarkupSafe==3.0.2
 narwhals==1.40.0
-numpy==1.26.4  # Downgrade para compatibilidad con scipy
+numpy==1.26.4
 packaging==24.2
 pandas==2.2.3
 pillow==11.2.1
 protobuf==6.31.0
-pyarrow==16.1.0  # Actualizado para compatibilidad con pandas 2.2.3
+pyarrow==16.1.0
 python-dateutil==2.9.0.post0
-pytz==2025.2
+pytz==2024.1  # Versión válida
 referencing==0.36.2
 requests==2.32.3
 rpds-py==0.25.1
 scikit-learn==1.6.1
 scipy==1.13.1
 six==1.17.0
-streamlit==1.36.0  # Última versión estable verificada
+streamlit==1.45.1  # Restaurada versión original
 tenacity==9.1.2
 threadpoolctl==3.6.0
 toml==0.10.2
 tornado==6.5.1
 typing_extensions==4.13.2
-tzdata==2025.2
+tzdata==2024.1  # Versión válida
 urllib3==2.4.0
