@@ -1,9 +1,7 @@
---only-binary :all:
-
 altair==5.5.0
 attrs==25.3.0
 cachetools==5.5.2
-certifi==2024.6.2  # Versión real más reciente
+certifi==2024.6.2
 charset-normalizer==3.4.2
 click==8.1.8
 idna==3.10
@@ -16,21 +14,21 @@ numpy==1.26.4
 packaging==24.2
 pandas==2.2.3
 pillow==11.2.1
-protobuf==6.31.0
+protobuf==4.25.3 # Versión de Python, no del protocolo. Puedes probar sin versión si la anterior falla.
 pyarrow==16.1.0
 python-dateutil==2.9.0.post0
-pytz==2024.1  # Versión válida
+pytz==2024.1
 referencing==0.36.2
 requests==2.32.3
 rpds-py==0.25.1
-scikit-learn==1.6.1
+scikit-learn==1.6.1 # Considera bajarla si todo lo demás falla
 scipy==1.13.1
 six==1.17.0
-streamlit==1.45.1  # Restaurada versión original
+streamlit==1.45.1 # Considera bajarla si todo lo demás falla
 tenacity==9.1.2
 threadpoolctl==3.6.0
 toml==0.10.2
 tornado==6.5.1
 typing_extensions==4.13.2
-tzdata==2024.1  # Versión válida
+tzdata==2024.1
 urllib3==2.4.0
